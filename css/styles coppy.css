@@ -379,6 +379,7 @@ img {
         gap: 72px;
         justify-content: center;
         align-items: center;
+        
     }
 
     .feature-name {
@@ -391,6 +392,7 @@ img {
         align-items: center;
         justify-items: center;
         margin: 0 auto;
+        
     }
 .section-devices{
     display: none;
@@ -419,6 +421,7 @@ img {
     margin: 0 auto;
     text-align: center;
     gap: 72px;
+    align-items: center;
 }
 
 .team-member {
@@ -460,8 +463,52 @@ img {
     justify-content: center;
     gap: 24px;
 }
+.customers {
+    padding: 96px 0;
+}
+.cusotmers-tittle {
+    text-align: center;
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    margin-top: 0px;
+    margin-bottom: 72px;
+    text-transform: capitalize;
+}
+.list-customers {
+    display: flex;
+    height: 88px;
+    gap: 16px;
+    padding-left: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
+.customer-link {
+    display: flex;
+    flex-wrap:wrap;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--subtle-text);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: var(--subtle-text);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer-icon {
+    fill: currentColor;
+    display: block;
+    width: 110px;
+    height: 56px;
+}
+}
 
 
 
