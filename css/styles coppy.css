@@ -131,14 +131,15 @@ img {
 
 
 
-@media screen and (max-width: 489px) {
+/* @media screen and (max-width: 489px) {
     * {
         display: none;
     }
-}
+} */
+/* and (min-width: 480px) */
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen  and (max-width: 767px) {
     .container {
         max-width: 480px;
         margin: 0 auto;
