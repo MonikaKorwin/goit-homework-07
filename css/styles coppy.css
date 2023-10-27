@@ -139,7 +139,7 @@ img {
 /* and (min-width: 480px) */
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen  and (max-width: 767px) {
+@media screen  and (min-width: 480px) {
     .container {
         max-width: 480px;
         margin: 0 auto;
@@ -415,7 +415,7 @@ img {
     }
 
     .container-team {
-        width: 767;
+        width: 428px;
         margin: 0 auto;
     }
 
@@ -546,7 +546,7 @@ img {
     }
 
     .container-footer {
-        min-width: 428px;
+        width: 428px;
         margin: 0 auto;
         padding: 0 15px;
     }
