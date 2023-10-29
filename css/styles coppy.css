@@ -316,6 +316,7 @@ img {
 
 /* modal */
 .modal {
+    min-width: 320px;
     max-width: 392px;
     min-height: 584px;
     border-radius: 4px;
