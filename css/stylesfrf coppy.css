@@ -545,27 +545,27 @@ img {
         height: 88px;
     }
 
-    .footer {
+    /* .footer {
         background: var(--dark-color);
         color: var(--modalbackground-color);
         padding: 97.5px 0 96px;
-    }
+    } */
 
-    .container-footer {
+    /* .container-footer {
         min-width: 428px;
         margin: 0 auto;
         padding: 0 15px;
-    }
+    } */
 
     .studio {
         color: var(--dark-color);
     }
 
-    .studio-footer {
+    /* .studio-footer {
         color: var(--light-color);
-    }
+    } */
 
-    .footer-paragraph {
+    /* .footer-paragraph {
         display: block;
         color: var(--light-color);
         width: 268px;
@@ -576,18 +576,18 @@ img {
         letter-spacing: 0.02em;
         margin: 0 auto;
         margin-top: 17.5px;
-    }
+    } */
 
-    .logo-footer {
+    /* .logo-footer {
         display: block;
         text-align: center;
-    }
-
+    } */
+/* 
     .first-line {
         padding-bottom: 72px;
-    }
+    } */
 
-    .second-line {
+    /* .second-line {
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -595,29 +595,29 @@ img {
         align-items: center;
         justify-content: center;
         padding-bottom: 72px;
-    }
+    } */
 
-    .socialmedia-tittle {
+    /* .socialmedia-tittle {
         color: var(--modal-color);
         margin-bottom: 16px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
-    }
+    } */
 
-    .footer-social {
+    /* .footer-social {
         display: flex;
         gap: 16px;
         padding-left: 0px;
         align-items: center;
 
-    }
+    } */
 
-    .footer-social-list {
+    /* .footer-social-list {
         width: 40px;
         height: 40px;
-    }
+    } */
 
     .footer-social-link {
         width: 100%;
@@ -651,7 +651,7 @@ img {
         gap: 16px;
     }
 
-    .substribe-input {
+    /* .substribe-input {
         display: flex;
         width: 398px;
         height: 40px;
@@ -670,9 +670,9 @@ img {
         align-items: center;
         margin: 0 auto;
 
-    }
+    } */
 
-    .subscribe-botton {
+    /* .subscribe-botton {
         display: flex;
         width: 165px;
         height: 40px;
@@ -690,7 +690,7 @@ img {
         border-radius: 4px;
         margin: 0 auto;
 
-    }
+    } */
 
     .subscribe-icon {
         margin-left: 16px;
