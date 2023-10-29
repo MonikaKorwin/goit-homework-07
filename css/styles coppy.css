@@ -257,6 +257,7 @@ img {
 .section-sollution {
     margin: 0 auto;
     padding: 112px 16px;
+    width: 100%;
     /* min-width: 428px; */
 }
 
@@ -665,6 +666,7 @@ img {
     color: var(--modalbackground-color);
     padding: 97.5px 0 96px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .container-footer {
