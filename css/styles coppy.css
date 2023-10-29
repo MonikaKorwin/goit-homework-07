@@ -68,7 +68,7 @@ img {
 /* header */
 
 .container {
-    width: 428px;
+    max-width: 428px;
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -257,7 +257,7 @@ img {
 .section-sollution {
     margin: 0 auto;
     padding: 112px 16px;
-    min-width: 428px;
+    /* min-width: 428px; */
 }
 
 .section-sollution {
@@ -520,13 +520,13 @@ img {
 /* -- section 4-- */
 .team {
     background-color: var(--light-color);
-    min-width: 428px;
+    max-width: 428px;
     margin: 0 auto;
 
 }
 
 .container-team {
-    min-width: 428px;
+    max-width: 428px;
     margin: 0 auto;
     padding: 0px 82px;
 }
@@ -620,7 +620,7 @@ img {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-between;
-    min-width: 396px;
+    max-width: 396px;
     row-gap: 72px;
     padding-bottom: 96px;
 
@@ -668,7 +668,7 @@ img {
 }
 
 .container-footer {
-    min-width: 428px;
+    max-width: 428px;
     margin: 0 auto;
     padding: 0 16px;
 }
