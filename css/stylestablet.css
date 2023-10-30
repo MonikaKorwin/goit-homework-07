@@ -133,8 +133,7 @@
     /* section 1 */
     .section-sollution {
         margin: 0 auto;
-        padding: 112px 136px;
-        width: 100%;
+               width: 100%;
         height: 432px;
     }
 
@@ -144,8 +143,11 @@
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0, 72px;
-        margin-bottom: 36px;
+        letter-spacing: 1.12px;
+        margin-bottom: 32px;
+    }
+    .sollutions{
+        margin: 0 auto;
     }
 
     /* section-2 */
