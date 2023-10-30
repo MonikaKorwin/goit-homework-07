@@ -262,8 +262,8 @@ img {
     margin: 0 auto;
     padding: 112px 16px;
     width: 100%;
-    /* min-width: 428px; */
-}
+    height: 432px;
+    }
 
 .section-sollution {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -668,6 +668,7 @@ img {
 
 /* -- footer -- */
 
+@media screen and (max-width:767px){
 .footer {
     background: var(--dark-color);
     color: var(--modalbackground-color);
@@ -818,7 +819,7 @@ img {
     margin: 0 auto;
     padding: 8px 24px;
 }
-
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ---------------------------------------TABLET------------------------------ */
@@ -838,4 +839,3 @@ img {
 
 
 
-}

@@ -485,7 +485,6 @@ img {
   padding: 0px;
   margin: 0 auto;
   justify-content: space-between;
-
 }
 
 .feature_div-icon {
@@ -552,7 +551,6 @@ img {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-
   align-items: baseline;
 }
 
@@ -1211,5 +1209,5 @@ img {
 
 .subscribe {
   margin-left: 80px;
-  ;
+  
 }
