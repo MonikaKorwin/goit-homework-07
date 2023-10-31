@@ -133,7 +133,7 @@
     /* section 1 */
     .section-sollution {
         margin: 0 auto;
-               width: 100%;
+        width: 100%;
         height: 432px;
     }
 
@@ -146,7 +146,8 @@
         letter-spacing: 1.12px;
         margin-bottom: 32px;
     }
-    .sollutions{
+
+    .sollutions {
         margin: 0 auto;
     }
 
@@ -207,7 +208,7 @@
 
     /* footer */
 
-.footer {
+    /* .footer {
     background: var(--dark-color);
     color: var(--modalbackground-color);
     
@@ -347,15 +348,141 @@
     display: flex;
     flex-direction: column;
 }
+.footer {
+    background: var(--dark-color);
+    color: var(--modalbackground-color);
+    padding: 100px 0 100px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* modal */
-.modal {
-    width: 408px;
-    min-height: 584px;
-    padding: 72px 25px 23px 24px;
+
+
+    .footer {
+
+        padding: 0px;
+        width: 100%;
+    }
+
+
+    .container-footer {
+        padding: 97.5px 108px 96px 108px;
+        width: 768px;
+
+        margin: 0 auto;
+        align-items: baseline;
+    }
+
+    .footer-mobile {
+        display: flex;
+    }
+
+
+    .modal {
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 25px 23px 24px;
+    }
+
+    .checkbox-button {
+        display: block;
+        min-width: 169px;
+    }
+
+    .logo-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-footer {
+        display: inline-block;
+        text-align: left;
+        margin: 0;
+    }
+
+    .studio-footer {
+        color: var(--light-color);
+    }
+
+    .footer-paragraph {
+        display: block;
+        color: var(--light-color);
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin: 0;
+        margin-top: 17.5px;
+        padding: 0px;
+        width: 264px;
+        margin-top: 17.5px;
+    }
+
+    .second-line {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+        margin-left: 24px;
+        align-items: center;
+        padding-bottom: 0;
+        justify-content: flex-start;
+
+
+    }
+
+    .socialmedia-tittle {
+
+        margin-bottom: 0px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .subscribe {
+        margin: 0;
+        padding: 72px 0px;
+    }
+
+    .subscribe-tittle {
+
+        text-align: left;
+    }
+
+    .substribe-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+
+    .substribe-input {
+        width: 264px;
+
+    }
+.subscribe-botton{
+  margin: 0;
+       
+    .subscribe-icon {
+            margin-left: 16px;
+    
+    
+        }
+                  
+                  
+                   
 }
-.checkbox-button {
-    display: block;
-    min-width: 169px;
-}
+
 }

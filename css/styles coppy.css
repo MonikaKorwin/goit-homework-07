@@ -273,6 +273,15 @@ img {
     background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-sollution {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/img-name2x.jpg');
+    }
+}
+
 .sollutions {
     display: flex;
     flex-direction: column;
@@ -667,8 +676,8 @@ img {
 }
 
 /* -- footer -- */
-
-@media screen and (max-width:767px){
+/* 
+@media screen and (max-width:767px){ */
 .footer {
     background: var(--dark-color);
     color: var(--modalbackground-color);
@@ -716,12 +725,12 @@ img {
 
 .second-line {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 72px;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 72px;
 }
 
 .socialmedia-tittle {
@@ -819,7 +828,13 @@ img {
     margin: 0 auto;
     padding: 8px 24px;
 }
-}
+
+   .subscribe-icon {
+       margin-left: 16px;
+
+
+   }
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ---------------------------------------TABLET------------------------------ */
