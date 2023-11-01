@@ -394,6 +394,7 @@ img {
     background: var(--dark-color);
     color: var(--modalbackground-color);
     padding: 100px 0 100px;
+    width: 100%;
 
 
 }
