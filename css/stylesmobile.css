@@ -325,7 +325,7 @@ img {
 
 /* modal */
 .modal {
- width: 250px;
+ width: 392px;
     min-height: 584px;
     border-radius: 4px;
     background: var(--modal-background);
